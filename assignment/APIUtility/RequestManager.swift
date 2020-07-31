@@ -9,6 +9,7 @@
 import Foundation
 
 class RequestManager {
+    // Shared instance
     class var sharedInstance :RequestManager {
         struct Singleton {
             static let instance = RequestManager()
